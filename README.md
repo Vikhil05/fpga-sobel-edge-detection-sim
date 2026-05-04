@@ -36,9 +36,9 @@ The architecture consists of a test pattern generator, line buffer for 3×3 wind
 <p align="center">
   <img src="Block_diagram.png" width="600"/>
 </p>
+---
 
-
-## Simulation Results
+## 📷 Simulation Results
 
 Simulation was performed in Vivado using an 8×8 checkerboard input.
 
