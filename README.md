@@ -29,15 +29,20 @@ the complete Sobel pipeline using a test pattern generator.
 | `tb_sobel.v` | Testbench |
 
 ---
+## 🧩 Block Diagram
 
-## 🧪 Simulation Results
+The architecture consists of a test pattern generator, line buffer for 3×3 window generation, and Sobel filter for edge computation.
 
-Simulation was performed in **Vivado** using an 8×8 checkerboard input.
+<p align="center">
+  <img src="block_diagram.png" width="600"/>
+</p>
+
 
 📷 **Simulation waveform / output image:**  
-👉 *(Will be added)*  
-`/simulation_results/sobel_output.png`
-
+Simulation was performed in **Vivado** using an 8×8 checkerboard input.
+![Sobel Output](Sobel_result.jpeg)
+The waveform shows edge detection output (`edge_out`) corresponding to 
+high-contrast transitions in the checkerboard input pattern.
 ---
 
 ## ⚠️ Notes
